@@ -1,0 +1,114 @@
+.container-cabecalho {
+  width: 100%;
+  position: fixed;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  background-color: blueviolet;
+  z-index: 998;
+}
+
+.logo-titulo {
+  color: white;
+  font-weight: 800;
+  font-size: 3.2rem;
+}
+.fa-bars {
+  color: white;
+  font-size: 3.2rem;
+}
+#botao-menu-hamburguer {
+  display: none;
+}
+
+.container-logo {
+  text-wrap: nowrap;
+  justify-self: start;
+}
+.container-menu-hamburguer {
+  justify-self: end;
+}
+
+.menu-lateral {
+  text-align: right;
+  right: 0;
+  position: absolute;
+  color: white;
+  position: fixed;
+  z-index: 999;
+  background-color: rgba(78, 78, 78, 0.567);
+  width: 85vw;
+  height: 100vh;
+}
+.lista-menu-lateral {
+  text-align: left;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.fa-xmark {
+  margin: 0 auto 0 auto;
+  padding: 2rem;
+  font-size: 3.2rem;
+}
+
+.botao-fechar-menu-hamburguer {
+  display: none;
+}
+
+.lista-menu-lateral li {
+  padding: 2rem;
+}
+.lista-menu-lateral li a {
+  font-size: 2.4rem;
+  color: white;
+  text-decoration: none;
+}
+.lista-menu {
+  display: none;
+}
+.fa-screwdriver-wrench {
+  display: block;
+  margin: auto 0;
+  color: white;
+  font-size: 3rem;
+}
+
+.lista-menu li a {
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+
+@media screen and (min-width: 728px) {
+  .botao-menu-hamburguer {
+    display: none;
+  }
+
+  .container-menu-hamburguer {
+    display: block;
+    align-self: center;
+  }
+  .container-logo {
+    display: block;
+    align-self: center;
+  }
+
+  .opcoes-navegacao {
+    display: inline-block;
+    margin: auto 0;
+  }
+  .lista-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+  }
+}

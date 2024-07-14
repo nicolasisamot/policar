@@ -1,0 +1,17 @@
+.container-rodape {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 5rem;
+  background: black;
+}
+
+.container-rodape p {
+  font-weight: 400;
+  color: var(--cinza-medio);
+}
+.container-rodape a {
+  font-weight: 800;
+  color: var(--cinza-medio);
+}
