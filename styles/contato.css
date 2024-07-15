@@ -1,0 +1,18 @@
+.container-contato {
+  display: flex;
+
+  justify-content: center;
+  gap: 1rem;
+}
+.icone-contato {
+  font-size: 5rem;
+  color: green;
+}
+
+.dados-contato {
+  font-size: 2rem;
+}
+
+.section-contato {
+  min-height: 100vh;
+}

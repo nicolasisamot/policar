@@ -1,0 +1,20 @@
+@import url(servicos.css);
+@import url(localizacao.css);
+@import url(contato.css);
+.titulo-section {
+  padding: 7.2rem 3rem 3rem 3rem;
+  font-size: 4rem;
+  font-weight: 1000;
+}
+
+section::before {
+  content: "";
+  display: block;
+  height: 7.2rem; /* Altura do cabeçalho */
+  margin-top: -7.2rem; /* Espaço negativo para ajustar a posição da seção */
+  visibility: hidden;
+}
+
+.section {
+  text-align: center;
+}

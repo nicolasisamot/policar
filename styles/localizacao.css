@@ -1,0 +1,30 @@
+.section-localizacao {
+}
+
+.mapa {
+  width: 70vw;
+  height: 70vw;
+}
+.fa-location-dot {
+  color: red;
+}
+
+.endereco {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 501px) {
+  .mapa {
+    width: 80vw;
+    height: 30vw;
+  }
+}
+
+@media screen and (min-width: 1000px) {
+  .mapa {
+    max-width: 90vw;
+    width: 90vw;
+    height: 20vw;
+  }
+}

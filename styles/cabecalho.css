@@ -1,18 +1,25 @@
 .container-cabecalho {
   width: 100%;
+  min-height: 7.2rem;
+  min-width: 7.2rem;
   position: fixed;
   padding: 2rem;
   display: grid;
   grid-template-columns: 50% 50%;
   justify-content: center;
-  background-color: blueviolet;
+  background-color: rgba(0, 0, 0, 0.964);
   z-index: 998;
 }
 
+.espacamento-cabecalho {
+  width: 100%;
+  background-color: aquamarine;
+  height: 7.2rem;
+}
+
 .logo-titulo {
-  color: white;
-  font-weight: 800;
-  font-size: 3.2rem;
+  display: block;
+  max-height: 3rem;
 }
 .fa-bars {
   color: white;
@@ -23,6 +30,8 @@
 }
 
 .container-logo {
+  display: flex;
+  align-items: center;
   text-wrap: nowrap;
   justify-self: start;
 }
@@ -37,7 +46,7 @@
   color: white;
   position: fixed;
   z-index: 999;
-  background-color: rgba(78, 78, 78, 0.567);
+  background-color: rgba(23, 23, 23, 0.567);
   width: 85vw;
   height: 100vh;
 }
@@ -74,17 +83,32 @@
 .lista-menu {
   display: none;
 }
-.fa-screwdriver-wrench {
-  display: block;
-  margin: auto 0;
-  color: white;
-  font-size: 3rem;
-}
 
 .lista-menu li a {
   color: white;
   text-decoration: none;
   font-size: 1.6rem;
+}
+.botao-lista-menu {
+  padding: 1rem 1rem;
+  position: relative; /* Necessário para posicionar o pseudo-elemento */
+}
+
+.botao-lista-menu::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background-color: red;
+  transition: width 0.3s, left 0.3s;
+  transform-origin: center;
+}
+
+.botao-lista-menu:hover::after {
+  width: 100%;
+  left: 0;
 }
 
 @media screen and (min-width: 728px) {
