@@ -2,6 +2,7 @@
 @import url(styles/cabecalho.css);
 @import url(styles/rodape.css);
 @import url(styles/section.css);
+@import url(styles/urgencia.css);
 
 * {
   padding: 0;
