@@ -2,7 +2,7 @@
 @import url(localizacao.css);
 @import url(contato.css);
 .titulo-section {
-  padding: 7.2rem 3rem 3rem 3rem;
+  padding: 0;
   font-size: 4rem;
   font-weight: 1000;
 }
@@ -16,5 +16,6 @@ section::before {
 }
 
 .section {
+  scroll-margin-top: 30vh;
   text-align: center;
 }

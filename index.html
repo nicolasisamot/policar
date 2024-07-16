@@ -4,8 +4,13 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="reset.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
     <link rel="stylesheet" href="style.css" />
     <title>Policar</title>
+    
     <link
       rel="stylesheet"
       href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
@@ -30,6 +35,7 @@
     >
       <i style="margin-top: 16px" class="fa fa-whatsapp"></i>
     </a>
+    
   </head>
   <body>
     <header>
@@ -78,8 +84,38 @@
     <p class="texto-urgencia">Precisando de ajuda com seu carro?</p>
     <a class="botao-urgencia" href="https://wa.me/5551980413910?text=Adorei%20seu%20artigo"><i class="fa-brands fa-whatsapp icone-contato"></i>FALE CONOSCO</a>
 </section>
+
+<section class="section section-sobre">
+  <h2 class="titulo-section titulo-section-sobre">SOBRE NÓS</h2>
+  <div class="container-sobre">
+    <div class="swiper-container">
+         <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="imgs/4c.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/5c.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/6c.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/7c.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/8c.png" alt=""></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+
+</div>
+    </div>
+ 
+    <p class="texto-sobre">Desde 2005, a Policar oferece serviços automotivos com qualidade e honestidade. Com quase duas décadas de experiência, estamos comprometidos em garantir que seu veículo receba o melhor cuidado possível.</p></div>
+  
+</section>
       <section id="section1" class="section section-servicos">
-        <h2 class="titulo-section">SERVIÇOS</h2>
+        <h2 class="titulo-section">NOSSOS SERVIÇOS</h2>
         <ul class="container-servicos">
           <li class="item-servicos">
             <img class="logo-servicos logo-motor" src="imgs/motor.png" />
@@ -110,7 +146,7 @@
       </section>
         
       <section id="section2" class="section section-localizacao">
-        <h2 class="titulo-section">Localização</h2>
+        <h2 class="titulo-section">LOCALIZAÇÃO</h2>
         <div class="container-localizacao">
           <div class="container-localizacao-logo-endereco"><img class="container-localizacao-logo-endereco_logo" src="imgs/logo policar tracado.png" alt=""><address class="endereco"><i class="fa-solid fa-location-dot"></i> R. Tamôio, 1442 - Niterói, Canoas - RS, 92120-001</address></div>
           
@@ -119,7 +155,7 @@
         </div>
       </section>
      <section id="section3"class="section section-contato">
-        <h2 class="titulo-section">Contato</h2>
+        <h2 class="titulo-section">ENTRE EM CONTATO</h2>
         <ul class="container-contato">
           <li class="item-contato"><i class="fa-solid fa-phone icone-contato"></i> <address class="dados-contato">(51)3475-8870</address></li>
           <li class="item-contato"><i class="fa-brands fa-whatsapp icone-contato"></i><address class="dados-contato">(51)98041-3910</address></li>
@@ -138,5 +174,24 @@
       src="https://kit.fontawesome.com/b1297b8c73.js"
       crossorigin="anonymous"
     ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      slidesPerView: 1,
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+
+    });</script>
   </body>
 </html>
