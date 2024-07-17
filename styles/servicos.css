@@ -8,11 +8,13 @@
 }
 
 .item-servicos {
-  padding: 2rem;
+  padding: 0rem 2rem;
   width: 15rem;
   height: 20rem;
   display: grid;
   grid-template-rows: 70% 20%;
+  justify-items: center;
+  align-items: center;
 }
 
 .logo-servicos {
@@ -21,7 +23,6 @@
 }
 
 .section-servicos {
-  scroll-margin-top: 30vh;
   text-align: center;
 }
 
@@ -42,6 +43,7 @@
 }
 .titulo-servico {
   color: red;
+
   font-size: 2rem;
   font-weight: 800;
 }

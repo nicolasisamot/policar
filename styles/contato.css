@@ -1,21 +1,25 @@
+.section-contato {
+  position: relative;
+}
+
 .container-contato {
   margin: 0 auto;
   display: flex;
-  flex-wrap: wrap;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 5vh;
   width: 80%;
 }
 .icone-contato {
+  padding: 2rem;
   font-size: 5rem;
-  color: rgba(0, 0, 0, 0.081);
+  color: rgb(0, 0, 0);
 }
 
 .dados-contato {
   font-size: 2rem;
 }
-
-.section-contato {
-  min-height: 100vh;
+.item-contato3 {
+  display: block;
 }

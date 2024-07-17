@@ -1,3 +1,6 @@
+.section-localizacao {
+}
+
 .container-localizacao {
   display: flex;
   flex-direction: column;
@@ -39,6 +42,10 @@
   }
   .container-localizacao-logo-endereco_logo {
     width: 80%;
+  }
+  .endereco {
+    margin-top: 5rem;
+    font-size: 1.5rem;
   }
   .container-localizacao-logo-endereco {
     text-align: center;

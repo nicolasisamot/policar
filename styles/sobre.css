@@ -21,6 +21,7 @@
 
 .swiper {
   width: 70%;
+  margin-bottom: 4rem;
 }
 
 .swiper-slide img {
@@ -75,7 +76,8 @@
     justify-content: center;
   }
   .section-sobre {
-    padding: 0 4rem;
+    padding-left: 4rem;
+    padding-right: 4rem;
     text-align: justify;
   }
 }

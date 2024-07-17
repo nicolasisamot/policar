@@ -9,11 +9,12 @@
   justify-content: center;
   background-color: rgb(0, 0, 0);
   z-index: 998;
+  box-shadow: 0px 0px 1.5rem 0.3rem rgba(0, 0, 0, 0.478);
 }
 
 .espacamento-cabecalho {
   width: 100%;
-  background-color: rgba(255, 255, 255, 0);
+  background-color: rgba(0, 0, 0, 0);
   height: 7.2rem;
 }
 
@@ -42,16 +43,22 @@
 .menu-lateral {
   text-align: right;
   right: 0;
-  position: absolute;
+
   color: white;
   position: fixed;
   z-index: 999;
-  background-color: rgba(23, 23, 23, 0.567);
+  box-shadow: 0px 0px 1.5rem 0.3rem rgba(0, 0, 0, 0.478);
+  background-color: rgba(0, 0, 0, 0.95);
+
   width: 85vw;
   height: 100vh;
 }
 .lista-menu-lateral {
-  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
 }
 
 .display-block {
@@ -73,10 +80,15 @@
 }
 
 .lista-menu-lateral li {
-  padding: 2rem;
+  border-bottom: 1px solid white;
 }
 .lista-menu-lateral li a {
-  font-size: 2.4rem;
+  display: inline-block;
+
+  width: 100%;
+  padding: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
   color: white;
   text-decoration: none;
 }
