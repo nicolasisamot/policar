@@ -13,7 +13,7 @@
 
 .texto-sobre {
   max-width: 82rem;
-  margin: 0 3vw;
+  margin: 2vh 3vw 0 3vw;
   font-weight: 400;
   font-weight: 400;
   font-size: 3rem;
@@ -21,7 +21,6 @@
 
 .swiper {
   width: 70%;
-  margin-bottom: 4rem;
 }
 
 .swiper-slide img {
