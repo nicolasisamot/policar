@@ -20,6 +20,9 @@
 }
 
 .mapa {
+  -webkit-box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
   width: 70vw;
   height: 70vw;
 }
