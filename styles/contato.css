@@ -16,6 +16,10 @@
   font-size: 5rem;
   color: rgb(0, 0, 0);
 }
+.dados-contato {
+  text-decoration: none;
+  color: black;
+}
 
 .dados-contato {
   font-size: 2rem;

@@ -11,6 +11,11 @@
   flex-direction: column;
 }
 
+.swiper-slide,
+.swiper-slide-active {
+  box-shadow: none;
+}
+
 .texto-sobre {
   max-width: 82rem;
   margin: 2vh 3vw 0 3vw;
@@ -20,9 +25,6 @@
 }
 
 .swiper {
-  -webkit-box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
-  -moz-box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
-  box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
   width: 70%;
 }
 
@@ -44,6 +46,9 @@
 .swiper-button-prev:hover,
 .swiper-button-next:hover {
   transform: scale(1.1);
+}
+
+.section-sobre {
 }
 
 @media screen and (min-width: 728px) {
