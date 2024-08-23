@@ -1,0 +1,62 @@
+.container-localizacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-localizacao-logo-endereco {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-localizacao-logo-endereco_logo {
+  width: 50%;
+}
+
+.mapa {
+  -webkit-box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
+  -moz-box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
+  box-shadow: 0px 0px 17px 5px rgba(0, 0, 0, 0.23);
+  width: 70vw;
+  height: 70vw;
+}
+.fa-location-dot {
+  color: red;
+}
+
+.endereco {
+  margin: 5rem;
+  font-size: 1.5rem;
+}
+
+@media screen and (min-width: 728px) {
+  .container-localizacao {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+  }
+  .container-localizacao-logo-endereco_logo {
+    width: 80%;
+  }
+  .endereco {
+    margin-top: 5rem;
+    font-size: 1.5rem;
+  }
+  .container-localizacao-logo-endereco {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+  }
+  .mapa {
+    width: 30vw;
+    height: 20vw;
+  }
+}

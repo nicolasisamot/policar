@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="shortcut icon" href="imgs/favicon.ico" type="image/x-icon">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="reset.css" />
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
+    <link rel="stylesheet" href="style.css" />
+    <title>Policar | Oficina Mecânica</title>
+  
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css"
+    />
+    <a
+      href="https://wa.me/5551980413910?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento!"
+      style="
+        position: fixed;
+        width: 60px;
+        height: 60px;
+        bottom: 40px;
+        right: 40px;
+        background-color: #25d366;
+        color: #fff;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        box-shadow: 0px 0px 2px #888;
+        z-index: 1000;
+      "
+      target="_blank"
+    >
+      <i style="margin-top: 16px" class="fa fa-whatsapp"></i>
+    </a>
+    
+  </head>
+  <body>
+    <header>
+      <div class="container-cabecalho">
+        <div class="container-logo">
+          <img class="logo-titulo" src="imgs/logo-policar.png" />
+          <h2 class="logo-texto">POLICAR</h2>
+        </div>
+        <div class="container-menu-hamburguer">
+          <ul class="lista-menu">
+            <li><a id="bt-section1" class="botao-lista-menu">SOBRE</a></li>
+            <li><a  id="bt-section2" class="botao-lista-menu" >SERVIÇOS</a></li>
+            <li><a id="bt-section3"  class="botao-lista-menu" >LOCALIZAÇÃO</a></li>
+            <li><a  id="bt-section4" class="botao-lista-menu" >CONTATO</a></li>
+          </ul>
+
+          <label for="botao-menu-hamburguer" class="botao-menu-hamburguer">
+            <i class="fa-solid fa-bars" a></i
+          ></label>
+          <input
+            type="checkbox"
+            id="botao-menu-hamburguer"
+            class="botao-menu-hamburguer"
+          />
+        </div>
+      </div>
+      <div class="menu-lateral display-none">
+        <label for="botao-fechar-menu-hamburguer">
+          <i class="fa-sharp fa-solid fa-xmark"></i
+        ></label>
+        <input
+          type="checkbox"
+          id="botao-fechar-menu-hamburguer"
+          class="botao-fechar-menu-hamburguer"
+        />
+        <ul class="lista-menu-lateral">
+          <li><a >SOBRE NÓS</a></li>
+          <li><a>NOSSOS SERVIÇOS</a></li>
+          <li><a>LOCALIZAÇÃO</a></li>
+          <li><a>CONTATO</a></li>
+        </ul>
+      </div>
+    </header>
+    <main>
+      <div class="espacamento-cabecalho"></div>
+
+
+  <section class="section section-urgencia">
+    <p class="texto-urgencia">Precisando de ajuda com seu carro?</p>
+    <a class="botao-wats-urgencia" href="https://wa.me/5551980413910?text=Olá,%20gostaria%20de%20fazer%20um%20orçamento!"><i class="fa-brands fa-whatsapp "></i>FALE CONOSCO</a>
+</section>
+
+<section id="section1" class="section section-sobre">
+  
+  <h2 class="titulo-section titulo-section-sobre">SOBRE NÓS</h2>
+  <div class="container-sobre">
+    <div class="swiper-container">
+         <!-- Slider main container -->
+<div class="swiper">
+  <!-- Additional required wrapper -->
+  <div class="swiper-wrapper">
+    <!-- Slides -->
+    <div class="swiper-slide"><img src="imgs/foto-mecanica-1.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/foto-mecanica-2.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/foto-mecanica-3.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/foto-mecanica-4.png" alt=""></div>
+    <div class="swiper-slide"><img src="imgs/foto-mecanica-5.png" alt=""></div>
+  </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
+
+  <!-- If we need navigation buttons -->
+  <div class="swiper-button-prev"></div>
+  <div class="swiper-button-next"></div>
+
+
+</div>
+    </div>
+ 
+    <p class="texto-sobre">Desde 2002, a Policar oferece serviços automotivos com qualidade e honestidade. Com duas décadas de experiência, estamos comprometidos em garantir que seu veículo receba o melhor cuidado possível.</p></div>
+  
+</section>
+
+      <section id="section2" class="section section-servicos">
+        
+        <h2 class="titulo-section">NOSSOS SERVIÇOS</h2>
+        <ul class="container-servicos">
+          <li class="item-servicos">
+            <img class="logo-servicos logo-motor" src="imgs/icone-motor.png" />
+            <h5 class="titulo-servico">MOTOR</h5>
+          </li>
+          <li class="item-servicos">
+            <img class="logo-servicos logo-injecao" src="imgs/icone-injecao.png" />
+            <h5 class="titulo-servico">INJEÇÃO</h5>
+          </li>
+          <li class="item-servicos">
+            <img class="logo-servicos logo-oleo" src="imgs/icone-troca-oleo.png" />
+            <h5 class="titulo-servico">TROCA DE ÓLEO</h5>
+          </li>
+          <li class="item-servicos">
+    
+              <img
+                class="logo-servicos logo-suspensao"
+                src="imgs/icone-suspensao.png"
+                alt=""
+              /><h5 class="titulo-servico">SUSPENSÃO</h5>
+            </h5>
+          </li>
+          <li class="item-servicos">
+            <img class="logo-servicos logo-freios" src="imgs/icone-freio.png" />
+            <h5 class="titulo-servico">FREIOS</h5>
+          </li>
+        </ul>
+     
+      </section>
+
+      <section id="section3" class="section section-localizacao">
+       
+        <h2 class="titulo-section">LOCALIZAÇÃO</h2>
+        <div class="container-localizacao">
+          <div class="container-localizacao-logo-endereco"><address class="endereco"><i class="fa-solid fa-location-dot"></i> R. Tamôio, 1442 - Niterói, Canoas - RS, 92120-001</address></div>
+          
+          <iframe class="mapa" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6914.182765182696!2d-51.169582!3d-29.94805!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95197085f1f9df5d%3A0x4582ab103745d745!2sMec%C3%A2nica%20Policar!5e0!3m2!1spt-BR!2sbr!4v1721018620578!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          
+        </div>
+     
+      </section>
+     <section id="section4"class="section section-contato">
+      
+        <h2 class="titulo-section">ENTRE EM CONTATO</h2>
+        <ul class="container-contato">
+          <li class="item-contato"><i class="fa-solid fa-phone icone-contato"></i> <address class="dados-contato">(51)3475-8870</address></li>
+          <li class="item-contato"><i class="fa-brands fa-whatsapp icone-contato"></i><address class="dados-contato">(51)98041-3910</address></li>
+         
+          <li class="item-contato item-contato3"><i class="fa-solid fa-envelope icone-contato"></i><address class="dados-contato">mecanicapolicar1442@gmail.com</address></li>
+        </ul>
+       
+      </section> 
+
+    </main>
+    <footer>
+      <div class="container-rodape">
+        <p>Desenvolvido por <a class="link-desenvolvedor" href="https://github.com/nicolasisamot">Nicolas Tomasi</a></p>
+      </div>
+    </footer>
+    <script src="main.js"></script>
+    <script
+      src="https://kit.fontawesome.com/b1297b8c73.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>const swiper = new Swiper('.swiper', {
+      // Optional parameters
+      slidesPerView: 1,
+      loop: true,
+    
+      // If we need pagination
+      pagination: {
+        el: '.swiper-pagination',
+      },
+    
+      // Navigation arrows
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    
+
+    });</script>
+  </body>
+</html>

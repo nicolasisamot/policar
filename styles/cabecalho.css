@@ -1,0 +1,167 @@
+.botao-menu-hamburguer,
+.fa-xmark {
+  cursor: pointer;
+}
+
+.container-cabecalho {
+  width: 100%;
+  min-height: 7.2rem;
+  min-width: 7.2rem;
+  position: fixed;
+  padding: 2rem;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  z-index: 998;
+  box-shadow: 0px 0px 1.5rem 0.3rem rgba(0, 0, 0, 0.478);
+}
+
+.espacamento-cabecalho {
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0);
+  height: 7.2rem;
+}
+.logo-texto {
+  font-style: italic;
+  font-weight: 1000;
+  display: none;
+  color: white;
+  font-size: 3rem;
+  max-height: 3rem;
+}
+
+.logo-titulo {
+  display: inline-block;
+  max-height: 3rem;
+}
+
+.fa-bars {
+  color: white;
+  font-size: 3.2rem;
+}
+#botao-menu-hamburguer {
+  display: none;
+}
+
+.container-logo {
+  align-items: center;
+  gap: 2rem;
+  display: flex;
+  align-self: center;
+}
+.container-menu-hamburguer {
+  justify-self: end;
+}
+
+.menu-lateral {
+  text-align: right;
+  right: 0;
+
+  color: white;
+  position: fixed;
+  z-index: 999;
+  box-shadow: 0px 0px 1.5rem 0.3rem rgba(0, 0, 0, 0.478);
+  background-color: rgba(0, 0, 0, 0.95);
+
+  width: 100vw;
+  height: 100vh;
+}
+.lista-menu-lateral {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.display-block {
+  display: block;
+}
+
+.display-none {
+  display: none;
+}
+
+.fa-xmark {
+  margin: 0 auto 0 auto;
+  padding: 2rem;
+  font-size: 3.2rem;
+}
+
+.botao-fechar-menu-hamburguer {
+  display: none;
+}
+
+.lista-menu-lateral li {
+  cursor: pointer;
+  border-bottom: 1px solid white;
+}
+.lista-menu-lateral li a {
+  display: inline-block;
+
+  width: 100%;
+  padding: 2rem;
+  font-weight: 700;
+  font-size: 3rem;
+  color: white;
+  text-decoration: none;
+}
+.lista-menu {
+  display: none;
+}
+
+.lista-menu li a {
+  cursor: pointer;
+  color: white;
+  text-decoration: none;
+  font-size: 1.6rem;
+}
+.botao-lista-menu {
+  padding: 1rem 1rem;
+  position: relative; /* Necessário para posicionar o pseudo-elemento */
+}
+
+.botao-lista-menu::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 0;
+  height: 0.2rem;
+  background-color: red;
+  transition: width 0.3s, left 0.3s;
+  transform-origin: center;
+}
+
+.botao-lista-menu:hover::after {
+  width: 100%;
+  left: 0;
+}
+
+@media screen and (min-width: 964px) {
+  .botao-menu-hamburguer {
+    display: none;
+  }
+
+  .container-menu-hamburguer {
+    display: block;
+    align-self: center;
+  }
+
+  .opcoes-navegacao {
+    display: inline-block;
+    margin: auto 0;
+  }
+  .lista-menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .logo-texto {
+    display: block;
+  }
+}

@@ -1,0 +1,49 @@
+.container-servicos {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  display: flex;
+}
+
+.item-servicos {
+  padding: 0rem 2rem;
+  width: 15rem;
+  height: 20rem;
+  display: grid;
+  grid-template-rows: 70% 20%;
+  justify-items: center;
+  align-items: center;
+}
+
+.logo-servicos {
+  justify-self: center;
+  width: 100%;
+}
+
+.section-servicos {
+  text-align: center;
+}
+
+.logo-motor {
+  width: 80%;
+}
+.logo-injecao {
+  margin-top: -15px;
+}
+.logo-oleo {
+  width: 90%;
+}
+.logo-suspensao {
+  width: 80%;
+}
+.logo-freios {
+  width: 80%;
+}
+.titulo-servico {
+  color: red;
+
+  font-size: 2rem;
+  font-weight: 800;
+}
